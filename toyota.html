@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/main.min.css">
+    <link rel="stylesheet" href="media/media.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+
+    <title>3D Model</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-nav">
+            <div class="container header-nav__container">
+                <div><a href="#!" class="header-nav__logo">Unusual <span class="header-nav__logo_span">CAR</span></a></div>
+                <div class="header-nav__burger passive">
+                        <li><a href="index.html" class="header-nav__list_link">Home</a></li>
+                        <li><a href="index.html" class="header-nav__list_link">Best sellers</a></li>
+                        <li><a href="index.html" class="header-nav__list_link">News</a></li>
+                        <li><a href="index.html" class="header-nav__list_link">Contact</a></li>
+                        <li><a href="index.html" class="header-nav__list_link">Purchase</a></li>
+                </div>
+                <ul class="header-nav__list">
+                    <li><a href="index.html" class="header-nav__list_link">Home</a></li>
+                    <li><a href="index.html" class="header-nav__list_link">Best sellers</a></li>
+                    <li><a href="index.html" class="header-nav__list_link">News</a></li>
+                    <li><a href="index.html" class="header-nav__list_link">Contact</a></li>
+                    <li><a href="index.html" class="header-nav__list_link">Purchase</a></li>
+                </ul>
+                <a class="header-nav__link" href="https://www.google.com/"><i class="fas icon-search"></i></a>
+                <div><a href="#!" class="header-nav__burger-link"><i class="fas fa-bars"></i></a></div>
+            </div>
+        </div>
+        </header>
+<script src="/script/toyota-script.js"></script>
+<script src="/script/three.js"></script>
+    <script type="module" src="/script/GLTFLoader.js"></script>
+    <script src="/script/OrbitControls.js"></script>
+    <script type="module">
+        import { GLTFLoader } from "./script/GLTFLoader.js";
+
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 0.01, 1000);
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        var loader = new GLTFLoader();
+
+        var obj;
+
+        loader.load("./models/scene.gltf", function (gltf) {
+            obj = gltf.scene;
+            scene.add(gltf.scene);
+        });
+
+        scene.background = new THREE.Color(0x1f2020);
+
+        const aLight = new THREE.AmbientLight(0xFFFFFF, 1.5);
+        scene.add(aLight);
+        const pLight = new THREE.PointLight(0xFFFFFF, 1.5);
+        scene.add(pLight);
+
+        camera.position.set(5, 0, 10);
+
+
+        function animate() {
+            requestAnimationFrame(animate);
+            renderer.render(scene, camera);
+        }
+        animate();
+
+        var controls;
+        controls = new THREE.OrbitControls(camera, renderer.domElement);
+        controls.update();
+    </script>
+</body>
+</html>

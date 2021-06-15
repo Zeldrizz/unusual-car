@@ -1,0 +1,834 @@
+@media (max-width: 1400px){
+    #Toyota{
+        right: 5%;
+    }
+    body .slider-base{
+        height: 110vh;
+    }
+}
+@media (max-width: 1200px){
+    .header-poster__card-big{
+        width: 300px;
+    }
+    #Toyota{
+        right: 0;
+    }
+    .header-poster__card-big_description {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .main-poster__table{
+        grid-template-columns: 600px 270px;
+    }
+    .main-poster__card{
+        width: 600px;
+    }
+    .main-poster__card_box{
+        width: 560px;
+        height: 250px;
+    }
+    .main-poster__card_text{
+        width: 520px;
+    }
+    .main-poster__card_description{
+        font-size: 22px;
+        margin-bottom: 5px; 
+    }
+    .main-poster__card_title{
+        margin-bottom: 5px;
+    }
+    .main-poster__card_undertitle{
+        margin-bottom: 10px;
+    }
+    .main-cards__box_card-img{
+        width: 100%;
+    }
+    .main-cards__box{
+        grid-template-columns: repeat(4, 222px);
+    }
+    .main-cards__box_card-description{
+        line-height: 24px;
+        font-size: 18px;
+    }
+    .main-cards{
+        margin-top: 100px;
+    }
+}
+@media(max-width: 992px){
+    .header-poster__card-big{
+        width: 250px;
+        height: 420px;
+    }
+    .header-poster .header-poster__card-small{
+        width: 190px;
+        height: 200px;
+    }
+    .header-poster .header-poster__cards-small{
+        height: 420px;
+        width: 440px;   
+    }
+    .header-poster .header-poster__card-small_description {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    .header-poster .header-poster__card-small_undertitle{
+        margin-left: 15px;
+    }
+    #Toyota{
+        right: -10%;
+        width: 700px;
+        height: 470px;
+    }
+    .main-poster__table{
+        grid-template-columns: 450px 220px;
+        gap: 40px;
+    }
+    .main-poster__card{
+        width: 450px;
+        margin-bottom: 10px;
+    }
+    .main-poster__cards{
+        gap: 30px;
+    }
+    .main-poster__card_box{
+        width: 410px;
+        height: 230px;
+        top: 200px;
+    }
+    .main-poster__card_text{
+        width: 380px;
+        line-height: 20px;
+    }
+    .main-poster__card_bag{
+        height: 280px;
+    }
+    .main-poster__card_description{
+        font-size: 22px;
+        margin-bottom: 5px; 
+    }
+    .main-poster__card_title{
+        margin-bottom: 5px;
+    }
+    .main-poster__card_undertitle{
+        margin-bottom: 10px;
+    }
+    .main-poster__news_card-img {
+        width: 190px;
+        height: 150px;
+        margin-bottom: 5px;
+    }
+    .main-poster__news_card-title {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+    .main-poster__news_card_img {
+        width: 190px;
+        margin-bottom: 10px;
+    }
+    .main-poster__news_card-bio {
+        width: 220px;
+    }
+    .main-poster__news_card-bio_description {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .main-poster__news_card-bio_undertitle {
+        margin-bottom: 5px;
+    }
+    .main-poster__news_card-bio_btn {
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 0;
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+    .main-poster__news_box-title {
+        margin-bottom: 10px;
+    }
+    .main-poster__news_media-title {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .main-poster__news_media-img {
+        width: 90px;
+        height: 90px;
+    }
+    .main-poster__news_media-collage {
+        width: 200px;
+        height: 280px;
+        gap: 5px;
+        margin-bottom: 25px;
+    }
+    .main-poster__news_media-btn {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+    .main-poster__news_media-title {
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    .main-poster__news_tags-box {
+        width: 200px;
+    }
+    .main-poster__news_tags-link {
+        margin-right: 10px;
+    }
+    .main-poster__news_callback-title {
+        margin-bottom: 5px;
+        margin-top: 30px;
+    }
+    .main-poster__news_callback-input {
+        width: 190px;
+    }
+    .main-poster__news_callback-btn {
+        padding: 15px 75px 15px 0px;
+    }
+    .main-poster__card_box {
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .main-cards__box {
+        grid-template-columns: repeat(4, 162px);
+    }
+    .main-cards__box_card-description {
+        line-height: 18px;
+        font-size: 15px;
+    }
+    .main-cards__box_card-img {
+        margin-bottom: 10px;
+        height: 140px;
+    }
+    .main-cards__box_card-text {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .footer-poster__about_text {    
+        line-height: 18px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        width: 293px;
+    }
+    .footer-poster__about_title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .footer-poster__posts_card-text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .footer-poster__mail-input {
+        width: 293px;
+    }
+    .footer-poster__mail-btn {  
+        width: 293px;
+    }
+    .footer-poster__posts_card-description {
+        margin-left: 10px;
+    }
+    .footer-poster__child {
+        flex-direction: column;        
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-poster__about_media{
+        margin-bottom: 30px;
+    }
+    .footer-poster__mail{
+        width: 293px;
+    }
+}
+@media (max-width: 768px){
+    .header-poster__card-big {
+        width: 250px;
+        height: 370px;
+    }
+    .header-poster .header-poster__card-small {
+        width: 140px;
+        height: 176px;
+    }
+    .header-poster .header-poster__card-small_description {
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    .header-poster .header-poster__card-small_undertitle {
+        font-size: 13px;
+        line-height: 15px;
+        margin-left: 10px;
+    }
+    .header-poster .header-poster__cards-small {
+        height: 370px;
+
+    }
+    .header-poster__card-big_description {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .header-poster__card-big_undertitle {
+        font-size: 13px;
+    }
+    .main-cards__title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .main-poster__table {
+        grid-template-columns: 325px 150px;
+        gap: 30px;
+    }
+    .main-poster__card {
+        width: 325px;
+    }
+    .main-poster__card_bag {
+        height: 250px;
+    }
+    .main-poster__card_box {
+        width: 285px;
+        height: 220px;
+        top: 170px;
+    }
+    .main-poster__card_text {
+        width: 250px;
+        line-height: 15px;
+        font-size: 13px;
+    }
+    .main-poster__card_box {
+        padding-left: 15px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    .main-poster__cards {
+        gap: 0px;
+    }
+    .main-poster__card {
+        height: 400px;
+        margin-bottom: 0;
+    }
+    .main-poster__cards {
+        grid-template-rows: repeat(5, 435px);
+        gap: 20px;
+    }
+    .main-poster__news_card_img {
+        width: 148px;
+    }
+    .main-poster__news_card-bio_title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .main-poster__news_card-bio_description {
+        font-size: 13px;
+        line-height: 16px;
+        margin-bottom: 10px;
+        width: 148px;
+    }
+    .main-poster__news_card-bio_undertitle {
+        margin-bottom: 0px;
+    }
+    .main-poster__news_card-bio_btn {
+        padding-left: 22px;
+    }
+    .main-poster__card_title {
+        margin-bottom: 0px;
+    }
+    .main-poster__card_description {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .main-poster__news_card-img {
+        width: 149px;
+        height: 140px;
+    }
+    .main-poster__news_card-title {
+        font-size: 15px;
+        line-height: 16px;
+        width: 149px;
+    }
+    .main-poster__news_card-text {
+        margin-bottom: 30px;
+    }
+    .main-poster__news_media-img {
+        width: 70px;
+        height: 70px;
+    }
+    .main-poster__news_media-collage {
+        width: 152px;
+        height: 220px;
+    }
+    .main-poster__news_media-btn {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .main-poster__news_tags-box {
+        width: 159px;
+    }
+    .main-poster__news_tags-link {
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 6px;
+        padding-bottom: 5px;
+        margin-bottom: 7px;
+    }
+    .main-poster__news_callback-title {
+        margin-bottom: 0px;
+        font-size: 17px;
+    }
+    .main-poster__news_card-bio_description {
+        margin-bottom: 10px;
+    }
+    .main-poster__news_callback-input {
+        width: 149px;
+    }
+    .main-poster__news_callback-input {
+        font-size: 12px;
+    }
+    .main-poster__news_callback-btn {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 149px;
+    }
+    .main-cards {
+        margin-top: 50px;
+    }
+    .main-cards__box {
+        grid-template-columns: repeat(4, 117px);
+    }
+    .main-cards__box_card-img {
+        height: 117px;
+    }
+    .main-cards__box_card-undertitle {
+        padding: 4px 10px 2px 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .main-cards__box_card-description {
+        line-height: 15px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .main-cards__box_card-text {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+    .slider-base .slider__slide_img{
+        width: 80%;
+        height: 60%;
+    }
+    .slider-base .slider__controls button{
+        font-size: 35px;
+    }
+}
+@media (max-width:576px){
+    body .slider-base {
+        height: 115vh;
+    }
+    .header-poster__card-big {
+        height: 350px;
+    }
+    .header-poster .header-poster__card-small {
+        width: 125px;
+        height: 166px;
+    }
+    .header-poster .header-poster__cards-small {
+        height: 350px;
+    }
+    .header-poster .header-poster__card-small_title {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .header-poster .header-poster__card-small_undertitle{
+        display: none;
+    }
+    .main-cards__title {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .main-poster__card_bag {
+        height: 200px;
+    }
+    .main-poster__cards {
+        grid-template-rows: repeat(5, 350px);
+    }
+    .main-poster__card {
+        width: 280px;
+    }
+    .main-poster__card_box {
+        width: 240px;
+        height: 200px;
+        top: 140px;
+    }
+    .main-poster__card_undertitle {
+        display: none;
+    }
+    .main-poster__card_text {
+        width: 210px;
+        line-height: 14px;
+    }
+    .main-poster__card_box{
+        padding-top: 15px;
+    }
+    .main-poster__table {
+        grid-template-columns: 280px 205px;
+        gap: 30px;
+    }
+    .main-poster__news_card_img {
+        width: 140px;
+    }
+    .main-poster__news_card-bio_description {
+        width: 140px;
+    }
+    .main-poster__news_card-bio_btn {
+        width: 140px;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .main-poster__news_card-img {
+        width: 140px;
+        height: 120px;
+    }
+    .main-poster__news_card-undertitle {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .main-poster__news_card-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .main-poster__news_media-title {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .main-poster__news_media-img {
+        width: 55px;
+        height: 55px;
+    }
+    .main-poster__news_media-collage {
+        width: 120px;
+        height: 175px;
+    }
+    .main-poster__news_media-title{
+        width: 140px;
+    }
+    .main-poster__news_media-btn {
+        font-size: 12px;
+    }
+    .main-poster__news_media-btn {
+        padding-left: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 8px;
+    }
+    .main-poster__card_description {
+        font-size: 17px;
+    }
+    .main-poster__news_tags-box {
+        width: 140px;
+    }
+    .main-poster__news_tags-link {
+        padding-top: 3px;
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        font-size: 13px;
+    }
+    .main-poster__news_callback-input {
+        font-size: 12px;
+        height: 40px;
+        width: 140px;
+    }
+    .main-poster__news_callback-btn {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 140px;
+        font-size: 13px;
+    }
+    .main-poster__news_card-text {
+        margin-bottom: 15px;
+    }
+    .main .main-cards .main-cards__box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .main-cards__box {
+        width: 100%;
+    }
+    .main-cards__box_card{
+        margin-bottom: 20px;
+    }
+    .main-cards__box_card-img {
+        height: 260px;
+    }
+    .main-cards__box_card-description {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .footer-nav__box_undertitle {
+        font-size: 10px;
+    }
+}
+@media (max-width:480px){
+    .slider-base .slider__slide_img{
+        width: 90%;
+        height: 50%;
+    }
+    .header-poster__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-poster__cards-small {
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-bottom: 500px;
+        z-index: 100;
+    }
+    .header-poster .header-poster__card-small {
+        width: 320px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .header-poster__card-big {
+        height: 420px;
+        width: 320px;
+    }
+    .header-poster .header-poster__card-small_undertitle {
+        display: block;
+    }
+    .header-poster .header-poster__card-small_description {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    .header-poster .header-poster__card-small_undertitle {
+        font-size: 14px;
+    }
+    .main-poster__table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-cards__title {
+        text-align: center;
+        font-size: 23px;
+        margin-top: 20px;
+    }
+    .main-poster__card {
+        width: 320px;
+    }
+    .main-poster__card_box {
+        width: 280px;
+        height: 185px;
+        top: 135px;
+    }
+    .main-poster__news_card_img {
+        width: 100%;
+    }
+    .main-poster__news_card-bio {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-poster__news_card-bio_title {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .main-poster__news_card-bio_undertitle {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .main-poster__news_card-bio_description {
+        font-size: 16px;
+        line-height: 18px;
+        width: 300px;
+    }
+    .main-poster__news_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-poster__news_card {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+    .main-poster__news_card-img {
+        width: 100%;
+        height: 100%;
+    }
+    .main-poster__news_card-title {
+        font-size: 17px;
+        line-height: 16px;
+        width: 300px;
+        text-align: center;
+    }
+    .main-poster__news_card-text{
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .header-poster .header-poster__cards-small {
+        width: 320px;
+    }
+    .main-poster__news_media-collage {
+        width: 320px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 330px;
+        margin-bottom: 5px;
+    }
+    .main-poster__news_media-img {
+        width: 120px;
+        height: 100px;
+    }   
+    .main-poster__news_media-title{
+        width: 320px;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .main-poster__news_media {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .main-poster__news_media-btn{
+        text-align: center;
+        padding: 10px;
+    }
+    .main-poster__news_card-undertitle {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .main-poster__news_tags-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 320px;
+    }
+    .main-poster__news_tags-box {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-poster__news_tags-link{
+        padding: 5px;
+    }
+    .main-poster__news_callback{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+    }
+    .main-poster__news_card-bio_description {
+        font-size: 16px;
+        line-height: 18px;
+        width: 300px;
+        text-align: center;
+    }
+    .main-poster__news_callback-input{
+        width: 100%;
+    }
+    .main-poster__news_callback-btn{
+        width: 100%;
+        padding: 10px;
+    }
+    .header-nav__list{
+        display: none;
+    }   
+    .header-nav__link{
+        display: none;
+    }
+    .header-nav .header-nav__burger-link{
+        display: block;
+    }
+    .header-nav__container{
+        width: 320px;    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header-nav__list_link {
+        font-size: 20px;
+    }
+    .header-nav__burger li{
+        margin-bottom: 10px;
+    }
+    .header-nav__burger{
+        left: 58.3%;
+    }
+    .header-nav .header-nav__burger-link {
+        font-size: 35px;
+    }
+}
+@media (max-width: 414px){
+    .header-nav__burger {
+        left: 52.3%;
+    }   
+}
+@media (max-width: 375px){
+    .header-nav__burger {
+        left: 47.3%;
+    }
+}
+@media (max-width: 320px){
+    .header-nav__container{
+        width: 260px;
+    }
+    .header-poster__card-big {
+        height: 400px;
+        width: 300px;
+    }
+    .header-poster .header-poster__card-small {
+        width: 300px;
+    }
+    .header-nav__list_link {
+        font-size: 20px;
+    }
+    .header-nav__burger li{
+        margin-bottom: 10px;
+    }
+    .header-nav__burger{
+        left: 37.5%;
+    }
+    .slider-base .slider__slide_img {
+        width: 90%;
+        height: 30%;
+    }
+}
